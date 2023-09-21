@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #0da79f;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: #333;
+        padding: 10px 20px;
+        border: 2px solid #6a1872;
+        border-radius: 10px;
+        display: inline-block;
+        margin-bottom: 20px;
+    
+}
+.contenedor {
+    width: 40px; 
+    margin: 5000 auto; 
+}
