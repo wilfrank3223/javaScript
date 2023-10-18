@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurante</title>
+</head>
+<body>
+    <h1>Restaurante</h1>
+    <form id="order-form">
+        <div>
+            <label for="dish-type">Tipo de Plato:</label> <!-- Etiqueta para el tipo de plato -->
+            <select id="dish-type"> <!-- Menú desplegable para seleccionar el tipo de plato -->
+                <option value="ejecutivo">ejecutivo (12.000)</option> <!-- Opción para plato ejecutivo -->
+                <option value="corriente">corriente (10.000)</option> <!-- Opción para plato corriente -->
+                <option value="especial">especial   (20.000)</option> <!-- Opción para plato especial -->
+            </select>
+        </div>
+        
+        <div>
+            <label for="quantity">Cantidad de Platos:</label> <!-- Etiqueta para la cantidad de platos -->
+            <input type="number" id="quantity" value="1" min="1"> <!-- Entrada numérica para la cantidad de platos -->
+        </div>
+        
+        <div>
+            <label for="beverage">Bebidas:</label> <!-- Etiqueta para las bebidas -->
+            <select id="beverage"> <!-- Menú desplegable para seleccionar la bebida -->
+                <option value="limonada">Limonada (Gratis)</option> <!-- Opción para limonada -->
+                <option value="gaseosa">Gaseosa ($2.500)</option> <!-- Opción para gaseosa -->
+                <option value="jugos">Jugos ($3.500)</option> <!-- Opción para jugos -->
+                <option value="cerveza">Cerveza ($5.000)</option> <!-- Opción para cerveza -->
+                <option value="michelada">Michelada ($5.500)</option> <!-- Opción para michelada -->
+            </select>
+        </div>
+        
+        <div>
+            <label for="quantity">Cantidad :</label> <!-- Etiqueta para la cantidad -->
+            <input type="number" id="quantity" value="1" min="1"> <!-- Entrada numérica para la cantidad -->
+        </div>
+        
+        <div>
+            <label for="total">Total a Pagar:</label> <!-- Etiqueta para el total a pagar -->
+            <input type="text" id="total" value="$0.00" readonly> <!-- Campo de texto para mostrar el total, con solo lectura -->
+        </div>
+        
+        <div>
+            <button type="button" onclick="calcularTotal()">Calcular Total</button> <!-- Botón para calcular el total al hacer clic -->
+        </div>
+        </body>
+        
+</html
