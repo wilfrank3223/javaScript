@@ -1,48 +1,49 @@
-h1{
-    text-align:center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-    color: rgb(17, 11, 11);
-    font-weight: 1000000;
-    margin-left: 20px;
-    font-size: 45px;
-    text-shadow: 2px 2px rgb(212, 92, 218);
-    
+/* Estilos para el elemento h1 */
+h1 {
+    text-align: center; /* Centra el texto */
+    font-family: 'Josefin Sans', sans-serif; /* Establece la fuente del texto */
+    font-family: 'Permanent Marker', cursive; /* Sobrescribe la fuente anterior */
+    color: rgb(17, 11, 11); /* Establece el color del texto */
+    font-weight: 1000000; /* Establece el peso de la fuente (nota: este valor es inusualmente alto) */
+    margin-left: 20px; /* Establece el margen izquierdo */
+    font-size: 45px; /* Establece el tamaño de la fuente */
+    text-shadow: 2px 2px rgb(212, 92, 218); /* Agrega una sombra al texto */
 }
 
+/* Estilos para el cuerpo (body) de la página */
 body {
-    background-image: url('https://i.pinimg.com/originals/7b/80/32/7b80322eebb5fcf318c5847970459d7b.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 20px,20px,20px,20px;
-    padding: 20px,20px,20px,20px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Permanent Marker';
-    
-
+    background-image: url('https://i.pinimg.com/originals/7b/80/32/7b80322eebb5fcf318c5847970459d7b.gif'); /* Establece una imagen de fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+    margin: 20px, 20px, 20px, 20px; /* Establece los márgenes superior, derecho, inferior e izquierdo */
+    padding: 20px, 20px, 20px, 20px; /* Establece el espacio de relleno superior, derecho, inferior e izquierdo */
+    font-family: 'Josefin Sans', sans-serif; /* Establece la fuente del texto */
+    font-family: 'Permanent Marker'; /* Sobrescribe la fuente anterior */
 }
 
+/* Estilos para el contenedor */
 .contenedor {
-    padding: 100px;
-    color: #110c0c;
-    font-size: 25px;
-    text-shadow: 2px 2px rgb(13, 3, 14);
-    
+    padding: 100px; /* Establece el espacio de relleno */
+    color: #110c0c; /* Establece el color del texto */
+    font-size: 25px; /* Establece el tamaño de la fuente */
+    text-shadow: 2px 2px rgb(13, 3, 14); /* Agrega una sombra al texto */
 }
+
+/* Estilos para el formulario con el id "formulario" */
 #formulario {
-    margin-top: -7%;
-    margin-bottom:-6% ;
-    margin-right : auto;
-    margin-left:auto;
-    background-color: #0e0d0c; 
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer; 
+    margin-top: -7%; /* Establece el margen superior en un porcentaje negativo */
+    margin-bottom: -6%; /* Establece el margen inferior en un porcentaje negativo */
+    margin-right: auto; /* Establece el margen derecho automáticamente */
+    margin-left: auto; /* Establece el margen izquierdo automáticamente */
+    background-color: #0e0d0c; /* Establece el color de fondo */
+    border: none; /* Elimina el borde */
+    color: black; /* Establece el color del texto */
+    padding: 15px 32px; /* Establece el espacio de relleno */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Elimina la decoración de texto predeterminada */
+    display: inline-block; /* Hace que el elemento sea un bloque en línea */
+    font-size: 16px; /* Establece el tamaño de la fuente */
+    margin: 4px 2px; /* Establece los márgenes */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el elemento */
 }
