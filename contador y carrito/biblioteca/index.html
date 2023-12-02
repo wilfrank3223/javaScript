@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Definición de la codificación del documento y configuración para dispositivos móviles -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título de la página -->
+  <title>LIBRERIA SENASOF</title>
+  <!-- Enlace al archivo de estilos CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Contenedor principal -->
+  <div class="container">
+    <!-- Encabezado principal -->
+    <h1>LIBRERIA SENASOF</h1>
+
+    <!-- Contenedor del primer libro -->
+    <div class="libro-container">
+      <!-- Imagen del libro 1 -->
+      <img src="img/libro1 (6).jpeg" alt="Libro 1">
+      <!-- Etiqueta y entrada para la cantidad del libro 1 -->
+      <label for="cantidadLibro1">Cantidad Libro 1:</label>
+      <button id="decrementoLibro1">-</button>
+      <!-- Espacio para mostrar la cantidad actual del libro 1 -->
+      <span id="cantidadLibro1">0</span>
+      <button id="incrementoLibro1">+</button>
+      <!-- Espacio para mostrar el subtotal del libro 1 -->
+      <span id="subtotalLibro1">Subtotal: $0</span>
+      <!-- Espacio para mostrar el precio del libro 1 -->
+      <span id="precioLibro1" class="precio">Precio: $20000</span>
+    </div>
+
+    <!-- Contenedor del segundo libro -->
+    <div class="libro-container">
+      <!-- Imagen del libro 2 -->
+      <img src="img/libro2.jpeg" alt="Libro 2">
+      <!-- Etiqueta y entrada para la cantidad del libro 2 -->
+      <label for="cantidadLibro2">Cantidad Libro 2:</label>
+      <button id="decrementoLibro2">-</button>
+      <!-- Espacio para mostrar la cantidad actual del libro 2 -->
+      <span id="cantidadLibro2">0</span>
+      <button id="incrementoLibro2">+</button>
+      <!-- Espacio para mostrar el subtotal del libro 2 -->
+      <span id="subtotalLibro2">Subtotal: $0</span>
+      <!-- Espacio para mostrar el precio del libro 2 -->
+      <span id="precioLibro2" class="precio">Precio: $15000</span>
+    </div>
+
+    <!-- Contenedor para mostrar el total de la venta -->
+    <div class="total-container">
+      <!-- Encabezado del total -->
+      <h3>Total de la Venta: <span id="totalVenta">$0</span></h3>
+      <!-- Botón para resetear la cantidad de libros -->
+      <button id="resetear">Resetear</button>
+    </div>
+  </div>
+
+  <!-- Script para la funcionalidad del carrito de compras -->
+  <script src="carrito.js"></script>
+</body>
+</html>
+

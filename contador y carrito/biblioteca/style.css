@@ -1,0 +1,86 @@
+/* Estilo para el cuerpo del documento */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Color de fondo gris claro */
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 20px auto; /* Margen exterior automático */
+  padding: 20px; /* Espaciado interno del contenedor */
+  background-color: #fff; /* Color de fondo blanco */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+  text-align: center; /* Alineación del texto al centro */
+  color: #333; /* Color del texto oscuro */
+}
+
+/* Estilo para el contenedor de cada libro */
+.libro-container {
+  display: flex; /* Uso de flexbox para el diseño */
+  align-items: center; /* Alineación vertical al centro */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo para la imagen de cada libro */
+.libro-container img {
+  max-width: 100px; /* Ancho máximo de la imagen */
+  margin-right: 10px; /* Margen derecho */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo para las etiquetas de texto */
+label {
+  font-size: 16px; /* Tamaño de fuente */
+  color: #555; /* Color del texto gris oscuro */
+}
+
+/* Estilo para los espacios entre elementos */
+span {
+  margin: 0 5px; /* Margen de 0 en la parte superior e inferior, 5px en los lados */
+}
+
+/* Estilo para los botones */
+button {
+  background-color: #007bff; /* Color de fondo azul */
+  color: #fff; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  padding: 5px 10px; /* Relleno interno */
+  cursor: pointer; /* Cursor tipo puntero al pasar el ratón */
+  border-radius: 3px; /* Bordes redondeados */
+}
+
+/* Estilo para el estado hover de los botones */
+button:hover {
+  background-color: #0056b3; /* Color de fondo azul oscuro */
+}
+
+/* Estilo para la información de precio */
+.precio {
+  font-size: 14px; /* Tamaño de fuente */
+  color: #888; /* Color del texto gris claro */
+}
+
+/* Estilo para el contenedor del total de la venta */
+.total-container {
+  text-align: center; /* Alineación del texto al centro */
+  margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo para el encabezado del total de la venta */
+h3 {
+  color: #555; /* Color del texto gris oscuro */
+}
+
+/* Estilo para el total de la venta */
+#totalVenta {
+  font-size: 24px; /* Tamaño de fuente */
+  color: #333; /* Color del texto oscuro */
+}
